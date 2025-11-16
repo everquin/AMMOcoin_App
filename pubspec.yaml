@@ -95,13 +95,13 @@ flutter:
     - assets/logo/
     - binaries/
 
-  # Custom Fonts
-  fonts:
-    - family: AMMOcoin
-      fonts:
-        - asset: assets/fonts/AMMOcoin-Regular.ttf
-        - asset: assets/fonts/AMMOcoin-Bold.ttf
-          weight: 700
+  # Custom Fonts (coming soon)
+  # fonts:
+  #   - family: AMMOcoin
+  #     fonts:
+  #       - asset: assets/fonts/AMMOcoin-Regular.ttf
+  #       - asset: assets/fonts/AMMOcoin-Bold.ttf
+  #         weight: 700
 
 targets:
   $default:

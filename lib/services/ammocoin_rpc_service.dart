@@ -157,7 +157,7 @@ class AmmocoinRPCService {
     int maxConfirmations = 9999999,
     List<String>? addresses,
   }) async {
-    final params = [minConfirmations, maxConfirmations];
+    final params = <dynamic>[minConfirmations, maxConfirmations];
     if (addresses != null && addresses.isNotEmpty) {
       params.add(addresses);
     }
