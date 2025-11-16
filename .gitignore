@@ -43,3 +43,14 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Distribution files (too large for git)
+dist/*.app
+dist/*.dmg
+dist/*.exe
+dist/*.zip
+dist/*.tar.gz
+
+# But keep checksums and documentation
+!dist/CHECKSUMS.txt
+!dist/README.md
